@@ -39,7 +39,7 @@ public class Utility {
                     city.setCityCode(array[0]);
                     city.setCityName(array[1]);
                     city.setProvinceId(provinceId);
-                    coolWeatherDB.saveProvince(city);
+                    coolWeatherDB.saveCity(city);
                 }
                 return true;
             }
